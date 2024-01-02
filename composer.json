@@ -14,8 +14,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Untek\\OldPackages\\": "src",
-      "Untek\\OldPackages\\Tests\\": "tests"
+      "Untek\\Sandbox\\OldPackages\\": "src",
+      "Untek\\Sandbox\\OldPackages\\Tests\\": "tests"
     }
   }
 }
