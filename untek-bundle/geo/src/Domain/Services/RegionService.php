@@ -1,0 +1,34 @@
+<?php
+
+namespace Untek\Bundle\Geo\Domain\Services;
+
+use Untek\Bundle\Geo\Domain\Entities\RegionEntity;
+use Untek\Bundle\Geo\Domain\Interfaces\Services\RegionServiceInterface;
+use Untek\Bundle\Geo\Domain\Subscribers\AssignCountryIdSubscriber;
+use Untek\Domain\Service\Base\BaseCrudService;
+use Untek\Domain\EntityManager\Interfaces\EntityManagerInterface;
+
+/**
+ * @method
+ * RegionRepositoryInterface getRepository()
+ */
+class RegionService extends BaseCrudService implements RegionServiceInterface
+{
+
+    public function __construct(EntityManagerInterface $em)
+    {
+        $this->setEntityManager($em);
+    }
+
+    public function getEntityClass() : string
+    {
+        return RegionEntity::class;
+    }
+
+    public function subscribes(): array
+    {
+        return [
+            AssignCountryIdSubscriber::class,
+        ];
+    }
+}

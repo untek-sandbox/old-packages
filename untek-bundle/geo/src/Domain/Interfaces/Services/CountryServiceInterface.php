@@ -1,0 +1,12 @@
+<?php
+
+namespace Untek\Bundle\Geo\Domain\Interfaces\Services;
+
+use Untek\Domain\Service\Interfaces\CrudServiceInterface;
+
+interface CountryServiceInterface extends CrudServiceInterface
+{
+
+
+}
+

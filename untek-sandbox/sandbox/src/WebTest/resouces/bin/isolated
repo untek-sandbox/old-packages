@@ -1,0 +1,40 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Изолированное выполнение HTTP-запросов.
+ *
+ * Используется при выполнении авто-тестов Web-части приложения.
+ * Выполнять HTTP-запросы можно без хоста.
+ *
+ * Для выполнения HTTP-запросов используется ядро ConsoleHttpKernel.
+ */
+
+use Symfony\Component\Console\Application;
+use Untek\Core\App\Libs\ZnCore;
+use Untek\Core\Container\Libs\Container;
+use Untek\Sandbox\Sandbox\WebTest\Commands\RequestReceiverCommand;
+
+$_SERVER['MICRO_TIME'] = microtime(true);
+$_SERVER['REQUEST_ID'] = uniqid();
+
+require __DIR__ . '/../../../../../../../../autoload.php';
+
+/**
+ * Инициализация ядра.
+ *
+ * Инициализируются/конфигурируются компоненты:
+ * - DotEnv
+ * - контейнер
+ *   - EventDispatcher
+ *   - ConfigManager
+ *   - ContainerConfigurator
+ * - загрузчик бандлов
+ */
+$container = new Container();
+$znCore = new ZnCore($container);
+$znCore->init();
+
+$application = new Application();
+$application->add(new RequestReceiverCommand($container));
+$application->run();

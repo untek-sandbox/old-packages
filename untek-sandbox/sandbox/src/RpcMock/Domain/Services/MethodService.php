@@ -1,0 +1,30 @@
+<?php
+
+namespace Untek\Sandbox\Sandbox\RpcMock\Domain\Services;
+
+use Untek\Sandbox\Sandbox\RpcMock\Domain\Interfaces\Services\MethodServiceInterface;
+use Untek\Sandbox\Sandbox\RpcMock\Domain\Interfaces\Repositories\MethodRepositoryInterface;
+use Untek\Domain\Service\Base\BaseCrudService;
+use Untek\Domain\EntityManager\Interfaces\EntityManagerInterface;
+use Untek\Sandbox\Sandbox\RpcMock\Domain\Entities\MethodEntity;
+
+/**
+ * @method
+ * MethodRepositoryInterface getRepository()
+ */
+class MethodService extends BaseCrudService implements MethodServiceInterface
+{
+
+    public function __construct(EntityManagerInterface $em)
+    {
+        $this->setEntityManager($em);
+    }
+
+    public function getEntityClass() : string
+    {
+        return MethodEntity::class;
+    }
+
+
+}
+

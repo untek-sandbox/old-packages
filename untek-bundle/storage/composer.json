@@ -1,0 +1,22 @@
+{
+	"name": "untek-bundle/storage",
+	"type": "extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Zn Developer",
+			"email": "zndev@ya.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"untek-pack/core": "0.x-dev",
+		"untek-pack/domain": "0.x-dev"
+	},
+	"autoload": {
+		"psr-4": {
+			"Untek\\Bundle\\Storage\\": "src",
+			"Untek\\Bundle\\Storage\\Tests\\": "tests"
+		}
+	}
+}
