@@ -1,0 +1,21 @@
+{
+  "name": "untek-sandbox/old-packages",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Untek Developer",
+      "email": "untek.developer@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Untek\\OldPackages\\": "src",
+      "Untek\\OldPackages\\Tests\\": "tests"
+    }
+  }
+}
