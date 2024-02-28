@@ -6,7 +6,7 @@
  * @var $entity EntityIdInterface
  */
 
-use Untek\Lib\Components\Byte\Helpers\ByteSizeFormatHelper;
+use Untek\Component\Measure\Byte\Helpers\ByteSizeFormatHelper;
 use Untek\Lib\Web\Html\Helpers\Html;
 use Untek\Lib\I18Next\Facades\I18Next;
 use Untek\Domain\Entity\Interfaces\EntityIdInterface;

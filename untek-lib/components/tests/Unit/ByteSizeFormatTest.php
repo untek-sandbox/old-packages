@@ -2,7 +2,7 @@
 
 namespace Untek\Lib\Components\Tests\Unit;
 
-use Untek\Lib\Components\Byte\Helpers\ByteSizeFormatHelper;
+use Untek\Component\Measure\Byte\Helpers\ByteSizeFormatHelper;
 use Untek\Tool\Test\Asserts\DataAssert;
 use Untek\Tool\Test\Asserts\DataTestCase;
 
