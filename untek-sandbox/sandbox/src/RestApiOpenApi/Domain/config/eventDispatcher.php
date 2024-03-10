@@ -5,7 +5,6 @@ use Untek\Sandbox\Sandbox\RestApiOpenApi\Domain\Subscribers\GenerateOpenApiDocsS
 
 return function (EventDispatcherConfiguratorInterface $configurator): void {
     if(getenv('OPEN_API_ENABLED')) {
-//        dd(2);
         $configurator->addSubscriber(GenerateOpenApiDocsSubscriber::class); // Генерация документации Open Api 3 YAML
     }
 };
