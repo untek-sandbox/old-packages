@@ -6,10 +6,13 @@ use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 use Untek\Core\App\Interfaces\EnvironmentInterface;
 use Untek\Core\App\Libs\DefaultEnvironment;
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Core\Container\Interfaces\ContainerConfiguratorInterface;
 use Untek\Core\DotEnv\Domain\Interfaces\BootstrapInterface;
 use Untek\Core\DotEnv\Domain\Libs\Vlucas\VlucasBootstrap;
 use Untek\Framework\Console\Symfony4\Base\BaseConsoleApp;
+
+DeprecateHelper::hardThrow();
 
 class ToolsConsoleApp extends BaseConsoleApp
 {
