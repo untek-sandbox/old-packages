@@ -16,6 +16,12 @@ use Untek\Framework\Rpc\Domain\Libs\ResponseFormatter;
 use Untek\Framework\Rpc\Symfony4\Libs\RpcRequestHandler;
 use Untek\Lib\Web\WebApp\Base\BaseHttpKernel;
 
+/*if($context == 'rpc') {
+    $httpKernel = new RpcKernel($projectDirectory, $kernel->getContainer(), $env, $isDebug, $context);
+} else {
+    $httpKernel = new HttpKernel($configDirectory, $kernel->getContainer(), $env, $isDebug, $context);
+}*/
+
 class RpcKernel extends BaseHttpKernel
 {
 
@@ -40,7 +46,6 @@ class RpcKernel extends BaseHttpKernel
     {
         $this->requestStack->push($request);
 
-        // request
         $event = new RequestEvent($this, $request, $type);
         $this->getEventDispatcher()->dispatch($event, KernelEvents::REQUEST);
 
