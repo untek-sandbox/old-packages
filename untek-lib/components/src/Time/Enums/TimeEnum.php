@@ -2,6 +2,10 @@
 
 namespace Untek\Lib\Components\Time\Enums;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
+
+DeprecateHelper::hardThrow();
+
 /**
  * Единицы измерения времени
  */
