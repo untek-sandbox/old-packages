@@ -19,6 +19,7 @@ use Untek\Domain\EntityManager\Interfaces\EntityManagerInterface;
 use Untek\Domain\Query\Entities\Query;
 use Untek\Domain\Service\Base\BaseCrudService;
 use Untek\Domain\Validator\Helpers\ValidationHelper;
+use Untek\Framework\Socket\Application\Commands\SendMessageToWebSocketCommand;
 use Untek\Framework\Socket\Infrastructure\Dto\SocketEvent;
 use Untek\Framework\Socket\Infrastructure\Services\SocketDaemon;
 use Untek\User\Identity\Domain\Interfaces\Repositories\IdentityRepositoryInterface;
@@ -137,7 +138,7 @@ class MessageService extends BaseCrudService implements MessageServiceInterface
 
 
             $isMe = $memberEntity->getUserId() == $this->security->getUser()->getId();
-            $event = new SocketEvent();
+            /*$event = new SocketEvent();
             $event->setUserId($memberEntity->getUserId());
             $event->setName('sendMessage');
             $event->setPayload(
@@ -147,7 +148,15 @@ class MessageService extends BaseCrudService implements MessageServiceInterface
                     'chatId' => $memberEntity->getChatId(),
                 ]
             );
-            $this->socketDaemon->sendMessageToTcp($event);
+            $this->socketDaemon->sendMessageToTcp($event);*/
+
+
+            $command = new SendMessageToWebSocketCommand('sendMessage', null, $memberEntity->getUserId(), [
+                'direction' => $isMe ? 'out' : 'in',
+                'text' => $messageEntity->getText(),
+                'chatId' => $memberEntity->getChatId(),
+            ]);
+            $this->bus->handle($command);
         }
     }
 
