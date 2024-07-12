@@ -8,5 +8,5 @@ use Symfony\Component\HttpFoundation\Response;
 interface ErrorControllerInterface
 {
 
-    public function handleError(Request $request, \Exception $exception): Response;
+    public function handleError(Request $request, \Throwable $exception): Response;
 }
