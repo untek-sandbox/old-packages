@@ -19,7 +19,7 @@ use Untek\Lib\I18Next\Facades\I18Next;
 use Untek\Lib\Web\TwBootstrap\Widgets\Format\Entities\AttributeEntity;
 use Untek\Lib\Web\TwBootstrap\Widgets\Format\Libs\FormatEncoder;
 use Untek\Lib\Web\TwBootstrap\Widgets\Pagination\PaginationWidget;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 
 if (!isset($collection)) {
     $collection = $dataProvider->getCollection();

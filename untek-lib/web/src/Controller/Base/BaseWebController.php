@@ -20,7 +20,7 @@ use Untek\Lib\Web\Form\Interfaces\BuildFormInterface;
 use Untek\Lib\Web\Form\Traits\ControllerFormTrait;
 use Untek\Lib\Web\Layout\Libs\LayoutManager;
 use Untek\Lib\Web\TwBootstrap\Widgets\Breadcrumb\BreadcrumbWidget;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 
 abstract class BaseWebController //implements ControllerLayoutInterface
 {

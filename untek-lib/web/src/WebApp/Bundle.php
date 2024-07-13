@@ -16,7 +16,7 @@ class Bundle extends BaseBundle
     {
         return [
             \Untek\Lib\Web\Form\Bundle::class,
-            \Untek\Lib\Web\View\Bundle::class,
+            \Untek\Component\Web\View\Bundle::class,
             \Untek\Lib\Web\Layout\Bundle::class,
         ];
     }

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @var $this \Untek\Lib\Web\View\Libs\View
+ * @var $this \Untek\Component\Web\View\Libs\View
  * @var $formView FormView|AbstractType[]
  * @var $formRender \Untek\Lib\Web\Form\Libs\FormRender
  * @var $dataProvider DataProvider

@@ -13,7 +13,7 @@ use Untek\Lib\Components\Http\Helpers\UrlHelper;
 use Untek\Lib\Web\TwBootstrap\Widgets\Filter\FilterGenerator;
 use Untek\Lib\Web\TwBootstrap\Widgets\Format\Entities\AttributeEntity;
 use Untek\Lib\Web\TwBootstrap\Widgets\Format\Formatters\ActionFormatter;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 
 $propertyAccessor = PropertyAccess::createPropertyAccessor();
 

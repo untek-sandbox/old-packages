@@ -15,7 +15,7 @@ use Untek\Core\App\Base\BaseApp;
 use Untek\Core\App\Subscribers\PhpErrorSubscriber;
 use Untek\Core\Container\Interfaces\ContainerConfiguratorInterface;
 use Untek\Core\EventDispatcher\Interfaces\EventDispatcherConfiguratorInterface;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 use Untek\Lib\Web\WebApp\Subscribers\FindRouteSubscriber;
 use Untek\Lib\Web\WebApp\Subscribers\WebDetectTestEnvSubscriber;
 use Untek\Lib\Web\WebApp\Subscribers\WebFirewallSubscriber;

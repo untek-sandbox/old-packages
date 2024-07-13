@@ -9,7 +9,7 @@
 use Untek\Core\Instance\Helpers\PropertyHelper;
 use Untek\Lib\I18Next\Facades\I18Next;
 use Untek\Lib\Web\Html\Helpers\Html;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 
 ?>
 

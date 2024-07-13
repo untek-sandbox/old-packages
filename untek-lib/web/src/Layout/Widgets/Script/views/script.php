@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @var \Untek\Lib\Web\View\Resources\Js $js
+ * @var \Untek\Component\Web\View\Resources\Js $js
  */
 
 foreach ($js->getFiles() as $item) {

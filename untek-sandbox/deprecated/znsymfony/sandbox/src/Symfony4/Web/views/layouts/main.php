@@ -11,7 +11,7 @@ use Untek\Core\Text\Helpers\Inflector;
 use Untek\Lib\Web\WebApp\Assets\AppAsset;
 use Untek\Lib\Web\Layout\Widgets\Script\ScriptWidget;
 use Untek\Lib\Web\Layout\Widgets\Style\StyleWidget;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 use Untek\Lib\Web\Widget\Widgets\Toastr\ToastrWidget;
 
 $moduleId = ModuleHelper::getCurrentModule();

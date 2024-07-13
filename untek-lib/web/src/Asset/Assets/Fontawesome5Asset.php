@@ -3,7 +3,7 @@
 namespace Untek\Lib\Web\Asset\Assets;
 
 use Untek\Lib\Web\Asset\Base\BaseAsset;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 
 class Fontawesome5Asset extends BaseAsset
 {

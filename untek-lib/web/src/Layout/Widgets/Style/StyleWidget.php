@@ -2,7 +2,7 @@
 
 namespace Untek\Lib\Web\Layout\Widgets\Style;
 
-use Untek\Lib\Web\View\Resources\Css;
+use Untek\Component\Web\View\Resources\Css;
 use Untek\Lib\Web\Widget\Base\BaseWidget2;
 
 class StyleWidget extends BaseWidget2

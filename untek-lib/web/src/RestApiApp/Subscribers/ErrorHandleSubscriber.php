@@ -10,7 +10,7 @@ use Symfony\Component\HttpKernel\KernelEvents;
 use Throwable;
 use Untek\Lib\Web\Error\Libs\CallAction;
 use Untek\Lib\Web\RestApiApp\Symfony4\Controllers\ErrorController2;
-use Untek\Lib\Web\View\Libs\View;
+use Untek\Component\Web\View\Libs\View;
 
 class ErrorHandleSubscriber implements EventSubscriberInterface
 {

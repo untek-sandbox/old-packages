@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @var $this \Untek\Lib\Web\View\Libs\View
+ * @var $this \Untek\Component\Web\View\Libs\View
  * @var $formView FormView|AbstractType[]
  * @var $dataProvider DataProvider
  * @var $collection \Untek\Core\Collection\Interfaces\Enumerable | \Untek\Sandbox\Sandbox\Apache\Domain\Entities\ServerEntity[]
