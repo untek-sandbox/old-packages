@@ -3,7 +3,7 @@
 namespace Untek\Bundle\Notify\Domain\Repositories\File;
 
 use Untek\Bundle\Notify\Domain\Entities\SmsEntity;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\SmsRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\SmsRepositoryInterface;
 use Untek\Domain\Components\FileRepository\Base\BaseLoopedFileRepository;
 
 class SmsRepository extends BaseLoopedFileRepository implements SmsRepositoryInterface

@@ -3,7 +3,7 @@
 namespace Untek\Bundle\Notify\Domain\Repositories\Session;
 
 use LogicException;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\FlashRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\FlashRepositoryInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Untek\Core\Container\Traits\ContainerAwareTrait;

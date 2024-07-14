@@ -3,7 +3,7 @@
 namespace Untek\Bundle\Notify\Test\Helpers;
 
 use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\EmailRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
 use Untek\Bundle\Notify\Domain\Repositories\File\EmailRepository;
 use Untek\Core\Container\Helpers\ContainerHelper;
 

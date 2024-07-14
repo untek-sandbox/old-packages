@@ -1,11 +1,11 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Services;
+namespace Untek\Bundle\Notify\Infrastructure\Services;
 
 use Untek\Domain\Service\Base\BaseService;
 use Untek\Bundle\Notify\Domain\Enums\FlashMessageTypeEnum;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\FlashRepositoryInterface;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\FlashServiceInterface;
+use Untek\Bundle\Notify\Application\Services\FlashRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\FlashServiceInterface;
 
 class FlashService extends BaseService implements FlashServiceInterface
 {

@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Untek\Bundle\Eav\Domain\Interfaces\Services\EntityServiceInterface;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\ToastrServiceInterface;
+use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
 use Untek\Lib\Web\Html\Helpers\Url;
 use Untek\Domain\Query\Entities\Query;
 use Untek\Lib\Web\Controller\Base\BaseWebCrudController;

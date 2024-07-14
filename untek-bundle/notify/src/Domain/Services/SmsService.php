@@ -1,11 +1,11 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Services;
+namespace Untek\Bundle\Notify\Infrastructure\Services;
 
 use Untek\Bundle\Notify\Domain\Entities\SmsEntity;
 use Untek\Bundle\Notify\Domain\Enums\ChannelEnum;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\SmsRepositoryInterface;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\SmsServiceInterface;
+use Untek\Bundle\Notify\Application\Services\SmsRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\SmsServiceInterface;
 use Untek\Bundle\Notify\Domain\Jobs\SendSmsJob;
 use Untek\Bundle\Queue\Domain\Enums\PriorityEnum;
 use Untek\Bundle\Queue\Domain\Interfaces\Services\JobServiceInterface;

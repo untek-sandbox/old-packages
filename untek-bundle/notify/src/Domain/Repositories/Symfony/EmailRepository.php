@@ -1,6 +1,6 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Repositories\Symfony;
+namespace Untek\Bundle\Notify\Infrastructure\Drivers\Symfony;
 
 use Symfony\Component\Mailer\Mailer;
 use Symfony\Component\Mailer\MailerInterface;
@@ -9,7 +9,7 @@ use Symfony\Component\Messenger\MessageBus;
 use Symfony\Component\Mime\Address;
 use Symfony\Component\Mime\Email;
 use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\EmailRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
 use Untek\Core\Code\Helpers\ComposerHelper;
 use Untek\Domain\Repository\Base\BaseRepository;
 use Untek\Domain\EntityManager\Interfaces\EntityManagerInterface;

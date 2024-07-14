@@ -1,6 +1,6 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Interfaces\Services;
+namespace Untek\Bundle\Notify\Application\Services;
 
 use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
 use Untek\Bundle\Queue\Domain\Enums\PriorityEnum;

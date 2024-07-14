@@ -7,7 +7,7 @@ use Untek\Sandbox\Sandbox\Application\Domain\Interfaces\Services\ApiKeyServiceIn
 use Untek\Sandbox\Sandbox\Application\Symfony4\Admin\Forms\ApiKeyForm;
 use Symfony\Component\Form\FormFactoryInterface;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\ToastrServiceInterface;
+use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
 use Untek\Lib\Web\Html\Helpers\Url;
 use Untek\Lib\Web\Controller\Base\BaseWebCrudController;
 use Untek\Lib\Web\Controller\Interfaces\ControllerAccessInterface;

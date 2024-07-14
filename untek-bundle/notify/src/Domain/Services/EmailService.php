@@ -1,12 +1,12 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Services;
+namespace Untek\Bundle\Notify\Infrastructure\Services;
 
 use Psr\Container\ContainerInterface;
 use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
 use Untek\Bundle\Notify\Domain\Enums\ChannelEnum;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\EmailRepositoryInterface;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\EmailServiceInterface;
+use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\EmailServiceInterface;
 use Untek\Bundle\Notify\Domain\Jobs\SendEmailJob;
 use Untek\Bundle\Queue\Domain\Enums\PriorityEnum;
 use Untek\Bundle\Queue\Domain\Interfaces\Services\JobServiceInterface;

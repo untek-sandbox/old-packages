@@ -3,7 +3,7 @@
 namespace Untek\Bundle\Notify\Domain\Repositories\Telegram;
 
 use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\EmailRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
 use Untek\Framework\Telegram\Domain\Facades\Bot;
 
 class EmailRepository implements EmailRepositoryInterface

@@ -6,7 +6,7 @@ use Symfony\Component\Form\FormFactoryInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\ToastrServiceInterface;
+use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
 use Untek\Bundle\Storage\Domain\Interfaces\Services\FileServiceInterface;
 use Untek\Bundle\Storage\Domain\Interfaces\Services\UploadServiceInterface;
 use Untek\Bundle\Storage\Symfony4\Admin\Forms\FileForm;

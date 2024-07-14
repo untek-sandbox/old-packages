@@ -3,7 +3,7 @@
 namespace Untek\Bundle\Notify\Domain\Jobs;
 
 use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Domain\Interfaces\Repositories\EmailRepositoryInterface;
+use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
 use Untek\Bundle\Queue\Domain\Interfaces\JobInterface;
 use Psr\Container\ContainerInterface;
 

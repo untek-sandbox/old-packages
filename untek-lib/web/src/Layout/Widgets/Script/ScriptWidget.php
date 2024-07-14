@@ -2,7 +2,7 @@
 
 namespace Untek\Lib\Web\Layout\Widgets\Script;
 
-use Untek\Bundle\Notify\Domain\Interfaces\Services\ToastrServiceInterface;
+use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
 use Untek\Component\Web\View\Resources\Js;
 use Untek\Lib\Web\Widget\Base\BaseWidget2;
 

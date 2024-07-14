@@ -10,7 +10,7 @@ use Untek\Core\Arr\Helpers\ArrayHelper;
 use Untek\Lib\Rest\Web\Controller\BaseCrudWebController;
 use Untek\Bundle\Article\Domain\Interfaces\PostServiceInterface;
 use Untek\Bundle\Notify\Domain\Enums\FlashMessageTypeEnum;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\FlashServiceInterface;
+use Untek\Bundle\Notify\Application\Services\FlashServiceInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

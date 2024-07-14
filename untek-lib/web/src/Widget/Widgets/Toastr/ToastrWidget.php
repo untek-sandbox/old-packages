@@ -2,8 +2,8 @@
 
 namespace Untek\Lib\Web\Widget\Widgets\Toastr;
 
-use Untek\Bundle\Notify\Domain\Entities\ToastrEntity;
-use Untek\Bundle\Notify\Domain\Interfaces\Services\ToastrServiceInterface;
+use Untek\Bundle\Notify\Domain\Model\ToastrEntity;
+use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
 use Untek\Core\Collection\Interfaces\Enumerable;
 use Untek\Component\Web\View\Resources\Js;
 use Untek\Lib\Web\Widget\Base\BaseWidget2;
