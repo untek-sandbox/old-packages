@@ -1,12 +1,12 @@
 <?php
 
-namespace Untek\Bundle\Notify\Infrastructure\Services;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Infrastructure\Services;
 
-use Untek\Bundle\Notify\Domain\Entities\SmsEntity;
-use Untek\Bundle\Notify\Domain\Enums\ChannelEnum;
-use Untek\Bundle\Notify\Application\Services\SmsRepositoryInterface;
-use Untek\Bundle\Notify\Application\Services\SmsServiceInterface;
-use Untek\Bundle\Notify\Domain\Jobs\SendSmsJob;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities\SmsEntity;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Enums\ChannelEnum;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\SmsRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\SmsServiceInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Jobs\SendSmsJob;
 use Untek\Bundle\Queue\Domain\Enums\PriorityEnum;
 use Untek\Bundle\Queue\Domain\Interfaces\Services\JobServiceInterface;
 use Psr\Container\ContainerInterface;

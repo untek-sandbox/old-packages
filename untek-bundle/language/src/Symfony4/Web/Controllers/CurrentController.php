@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Untek\Bundle\Language\Domain\Enums\Rbac\LanguageCurrentPermissionEnum;
 use Untek\Bundle\Language\Domain\Interfaces\Services\RuntimeLanguageServiceInterface;
-use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\ToastrServiceInterface;
 use Untek\User\Authentication\Domain\Interfaces\Services\AuthServiceInterface;
 use Untek\Lib\I18Next\Facades\I18Next;
 use Untek\Lib\Web\Controller\Base\BaseWebController;

@@ -5,7 +5,7 @@ namespace Untek\Bundle\Log\Symfony4\Admin\Controllers;
 use Symfony\Component\Form\FormFactoryInterface;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Untek\Bundle\Log\Domain\Interfaces\Services\HistoryServiceInterface;
-use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\ToastrServiceInterface;
 use Untek\Lib\Web\Html\Helpers\Url;
 use Untek\Lib\Web\Controller\Base\BaseWebCrudController;
 use Untek\Lib\Web\Controller\Interfaces\ControllerAccessInterface;

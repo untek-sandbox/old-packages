@@ -1,9 +1,9 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Repositories\Telegram;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Domain\Repositories\Telegram;
 
-use Untek\Bundle\Notify\Domain\Entities\SmsEntity;
-use Untek\Bundle\Notify\Application\Services\SmsRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities\SmsEntity;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\SmsRepositoryInterface;
 use Untek\Framework\Telegram\Domain\Facades\Bot;
 
 class SmsRepository implements SmsRepositoryInterface

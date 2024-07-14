@@ -1,9 +1,9 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Jobs;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Domain\Jobs;
 
-use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities\EmailEntity;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\EmailRepositoryInterface;
 use Untek\Bundle\Queue\Domain\Interfaces\JobInterface;
 use Psr\Container\ContainerInterface;
 

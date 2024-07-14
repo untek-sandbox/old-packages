@@ -1,6 +1,6 @@
 <?php
 
-namespace Untek\Bundle\Notify;
+namespace Untek\Component\Web\Widget\Widgets\Toastr;
 
 use Untek\Core\Bundle\Base\BaseBundle;
 

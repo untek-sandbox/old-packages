@@ -1,10 +1,10 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Entities;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities;
 
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
-use Untek\Bundle\Notify\Domain\Enums\FlashMessageTypeEnum;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Enums\FlashMessageTypeEnum;
 use Untek\Lib\Components\Status\Enums\StatusEnum;
 use Untek\Core\Enum\Helpers\EnumHelper;
 use Untek\Domain\Components\Constraints\Enum;

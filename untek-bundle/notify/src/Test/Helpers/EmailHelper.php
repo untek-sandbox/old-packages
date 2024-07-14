@@ -1,10 +1,10 @@
 <?php
 
-namespace Untek\Bundle\Notify\Test\Helpers;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Test\Helpers;
 
-use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
-use Untek\Bundle\Notify\Domain\Repositories\File\EmailRepository;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities\EmailEntity;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\EmailRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Repositories\File\EmailRepository;
 use Untek\Core\Container\Helpers\ContainerHelper;
 
 class EmailHelper

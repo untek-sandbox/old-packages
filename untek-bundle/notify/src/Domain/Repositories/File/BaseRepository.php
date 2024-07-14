@@ -1,6 +1,6 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Repositories\File;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Domain\Repositories\File;
 
 use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Domain\Components\FileRepository\Base\BaseFileCrudRepository;

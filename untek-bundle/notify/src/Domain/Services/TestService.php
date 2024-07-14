@@ -1,9 +1,9 @@
 <?php
 
-namespace Untek\Bundle\Notify\Infrastructure\Services;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Infrastructure\Services;
 
-use Untek\Bundle\Notify\Application\Services\TestServiceInterface;
-use Untek\Bundle\Notify\Application\Services\TestRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\TestServiceInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\TestRepositoryInterface;
 use Untek\Domain\Service\Base\BaseCrudService;
 
 class TestService extends BaseCrudService implements TestServiceInterface

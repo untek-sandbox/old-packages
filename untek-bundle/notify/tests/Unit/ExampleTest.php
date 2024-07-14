@@ -1,6 +1,6 @@
 <?php
 
-namespace Untek\Bundle\Notify\Tests\Unit;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Tests\Unit;
 
 use Untek\Tool\Test\Base\BaseTest;
 

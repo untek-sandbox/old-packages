@@ -1,11 +1,11 @@
 <?php
 
-namespace Untek\Bundle\Notify\Infrastructure\Services;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Infrastructure\Services;
 
 use Untek\Domain\Service\Base\BaseService;
-use Untek\Bundle\Notify\Domain\Enums\FlashMessageTypeEnum;
-use Untek\Bundle\Notify\Application\Services\FlashRepositoryInterface;
-use Untek\Bundle\Notify\Application\Services\FlashServiceInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Enums\FlashMessageTypeEnum;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\FlashRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\FlashServiceInterface;
 
 class FlashService extends BaseService implements FlashServiceInterface
 {

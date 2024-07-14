@@ -1,8 +1,8 @@
 <?php
 
-namespace Untek\Bundle\Notify\Application\Services;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Application\Services;
 
-use Untek\Bundle\Notify\Domain\Entities\SmsEntity;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities\SmsEntity;
 use Untek\Bundle\Queue\Domain\Enums\PriorityEnum;
 
 interface SmsServiceInterface

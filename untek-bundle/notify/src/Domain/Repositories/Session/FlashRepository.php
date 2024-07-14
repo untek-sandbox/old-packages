@@ -1,9 +1,9 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Repositories\Session;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Domain\Repositories\Session;
 
 use LogicException;
-use Untek\Bundle\Notify\Application\Services\FlashRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\FlashRepositoryInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 use Untek\Core\Container\Traits\ContainerAwareTrait;

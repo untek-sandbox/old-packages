@@ -1,9 +1,9 @@
 <?php
 
-namespace Untek\Bundle\Notify\Domain\Repositories\Swift;
+namespace Untek\Component\Web\Widget\Widgets\Toastr\Domain\Repositories\Swift;
 
-use Untek\Bundle\Notify\Domain\Entities\EmailEntity;
-use Untek\Bundle\Notify\Application\Services\EmailRepositoryInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Domain\Entities\EmailEntity;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\EmailRepositoryInterface;
 
 class EmailRepository implements EmailRepositoryInterface
 {

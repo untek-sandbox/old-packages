@@ -3,7 +3,7 @@
 namespace Untek\Lib\Web\Layout\Libs;
 
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
-use Untek\Bundle\Notify\Application\Services\ToastrServiceInterface;
+use Untek\Component\Web\Widget\Widgets\Toastr\Application\Services\ToastrServiceInterface;
 use Untek\Lib\I18Next\Interfaces\Services\TranslationServiceInterface;
 use Untek\Lib\Web\TwBootstrap\Widgets\Alert\AlertWidget;
 use Untek\Lib\Web\TwBootstrap\Widgets\Breadcrumb\BreadcrumbWidget;
