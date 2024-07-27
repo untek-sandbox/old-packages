@@ -15,9 +15,9 @@
     "untek-pack/domain": "0.x-dev",
     "untek-lib/components": "0.x-dev",
     "untek-lib/settings": "0.x-dev",
-    "symfony/http-foundation": "^4.4|^5.0",
-    "symfony/routing": "^4.4|^5.0",
-    "symfony/config": "^4.4|^5.0"
+    "symfony/http-foundation": "4.4|^5.4|^6.0",
+    "symfony/routing": "4.4|^5.4|^6.0",
+    "symfony/config": "4.4|^5.4|^6.0"
   },
   "autoload": {
     "psr-4": {
