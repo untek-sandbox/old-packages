@@ -29,7 +29,7 @@ class AuthorQuerySubscriber implements EventSubscriberInterface
         $this->attributeName = $attributeName;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::BEFORE_FORGE_QUERY => 'onBeforeForgeQuery',

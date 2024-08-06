@@ -21,7 +21,7 @@ class LanguageSubscriber implements EventSubscriberInterface
         $this->languageService = $languageService;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             RpcEventEnum::BEFORE_RUN_ACTION => 'onBeforeRunAction'

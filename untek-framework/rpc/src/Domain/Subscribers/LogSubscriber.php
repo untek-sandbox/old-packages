@@ -21,7 +21,7 @@ class LogSubscriber implements EventSubscriberInterface
         $this->logger = $logger;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             RpcEventEnum::AFTER_RUN_ACTION => 'onAfterRunAction',

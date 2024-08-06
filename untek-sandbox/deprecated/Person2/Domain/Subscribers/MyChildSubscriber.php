@@ -25,7 +25,7 @@ class MyChildSubscriber implements EventSubscriberInterface
         $this->myPersonService = $myPersonService;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::BEFORE_UPDATE_ENTITY => 'onBefore',

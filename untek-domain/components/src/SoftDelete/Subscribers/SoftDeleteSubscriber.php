@@ -26,7 +26,7 @@ class SoftDeleteSubscriber implements EventSubscriberInterface
         $this->setEntityManager($entityManager);
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::BEFORE_DELETE_ENTITY => 'onBeforeDelete',

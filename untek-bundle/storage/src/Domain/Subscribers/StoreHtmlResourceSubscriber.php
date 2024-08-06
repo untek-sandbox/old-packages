@@ -34,7 +34,7 @@ class StoreHtmlResourceSubscriber implements EventSubscriberInterface
         $this->uploadService = $uploadService;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::AFTER_CREATE_ENTITY => 'onBeforePersistEntity',

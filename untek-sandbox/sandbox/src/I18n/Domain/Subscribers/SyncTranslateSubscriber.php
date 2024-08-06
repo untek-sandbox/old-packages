@@ -30,7 +30,7 @@ class SyncTranslateSubscriber implements EventSubscriberInterface
         $this->translateService = $translateService;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::AFTER_CREATE_ENTITY => 'onAfterUpdateOrCreate',

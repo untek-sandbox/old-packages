@@ -9,7 +9,7 @@ use Untek\Domain\Domain\Events\EntityEvent;
 class SetUpdatedAtSubscriber implements EventSubscriberInterface
 {
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
 //            EventEnum::BEFORE_CREATE_ENTITY => 'onBeforePersist',

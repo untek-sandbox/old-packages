@@ -19,7 +19,7 @@ class ReadOnlyServiceSubscriber implements EventSubscriberInterface
         $this->setEntityManager($entityManager);
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::BEFORE_CREATE_ENTITY => 'onBefore',

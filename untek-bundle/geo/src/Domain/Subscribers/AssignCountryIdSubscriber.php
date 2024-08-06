@@ -19,7 +19,7 @@ class AssignCountryIdSubscriber implements EventSubscriberInterface
         $this->countryService = $countryService;
     }
 
-    public static function getSubscribedEvents()
+    public static function getSubscribedEvents(): array
     {
         return [
             EventEnum::BEFORE_CREATE_ENTITY => 'onBeforeCreate',
